@@ -1,8 +1,7 @@
 movies = []
-i = 0
-while i < 5:
+for i in range(5):
     movies.append(input("enter a movie"))
-    i = i + 1
+    i +=  1
 
 print("Your Favorite Movies "+ str(movies))
     
