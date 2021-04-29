@@ -5,7 +5,7 @@ def checkKeyExist(dict,newKey,newValue):
     dictKeys = [] #an empty list to hold keys
 
     # get keys from dictionnary and add to list
-    for key in car.keys():
+    for key in dict.keys():
         dictKeys.append(key)
 
     if newKey in dictKeys:
